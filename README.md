@@ -29,7 +29,7 @@ This is a bug in the provider, which should be reported in the provider's own is
 
 ## Usage with Docker or Podman with terraform image.
 Just make sure you can run docker or podman in your development environment and execute (maybe, you should use with root permission):
-
+Must configure .env.aws
 
 ```
 make docker-sh
