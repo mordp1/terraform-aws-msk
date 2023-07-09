@@ -10,6 +10,8 @@ locals {
     "num.partitions"                 = "6"
     "num.replica.fetchers"           = "4"
     "unclean.leader.election.enable" = "true"
+    "log.cleaner.enable"             = "true"
+    "offsets.retention.minutes"      = "1440"
     "delete.topic.enable"            = var.delete_topic_enable
   }
 
